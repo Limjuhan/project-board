@@ -1,0 +1,16 @@
+<configuration>
+    <appender name="STDOUT"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%boldMagenta(%d{MM-dd HH:mm:ss}) [%boldYellow(%-5level)] %cyan(%logger{5}.%M) - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Hibernate SQL 및 바인딩 로그 활성화 -->
+    <logger name="org.hibernate.SQL" level="INFO" />
+    <logger name="org.hibernate.orm.jdbc.bind" level="TRACE" />
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
