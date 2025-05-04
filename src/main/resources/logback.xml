@@ -10,7 +10,7 @@
     <logger name="org.hibernate.SQL" level="INFO" />
     <logger name="org.hibernate.orm.jdbc.bind" level="TRACE" />
 
-    <root level="DEBUG">
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>
