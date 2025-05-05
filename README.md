@@ -18,28 +18,4 @@
 * **담당자(Assignee) 지정:** 각 작업에 담당자를 지정하여 책임 명확화
 * **간단한 UI:** BootStrap을 활용한 직관적이고 사용하기 쉬운 인터페이스
 
-## 🚀 실행 방법
-
-1.  **필수 사항 확인:**
-    * [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) 설치
-    * [Gradle](https://gradle.org/install/) 설치 (SpringBoot 프로젝트 빌드 도구)
-    * 데이터베이스 (예: MySQL, H2) 설치 및 설정
-2.  **프로젝트 복제:**
-    ```bash
-    git clone [이 레포지토리 주소]
-    cd project-board
-    ```
-3.  **의존성 다운로드 및 빌드:**
-    ```bash
-    gradle clean build
-    ```
-4.  **애플리케이션 실행:**
-    ```bash
-    gradle bootRun
-    ```
-    또는 생성된 JAR 파일을 실행합니다. 경로는 `build/libs/` 아래에 있을 가능성이 높습니다.
-    ```bash
-    java -jar build/libs/project-board-0.0.1-SNAPSHOT.jar
-    ```
-5.  **접속:** 웹 브라우저에서 `http://localhost:8080` (또는 설정된 포트)으로 접속합니다.
 
