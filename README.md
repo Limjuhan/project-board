@@ -8,6 +8,7 @@
     * [BootStrap](https://getbootstrap.com/) - 반응형 웹 디자인 및 UI 컴포넌트
     * [Thymeleaf](https://www.thymeleaf.org/) - 서버 사이드 Java 템플릿 엔진
 * **Backend:**
+    * [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) (Java 21)
     * [SpringBoot](https://spring.io/projects/spring-boot) - 빠르고 간편한 Spring 기반 애플리케이션 개발 프레임워크(3.XX버전)
     * [JPA (Java Persistence API)](https://jakarta.ee/specifications/persistence/) - 자바 ORM 표준
 
